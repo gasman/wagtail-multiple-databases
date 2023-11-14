@@ -96,7 +96,7 @@ DATABASES = {
     }
 }
 
-DATABASE_ROUTERS = ["multipledatabases.routers.BasicRouter"]
+DATABASE_ROUTERS = ["multipledatabases.routers.AdvancedRouter"]
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
